@@ -1,4 +1,4 @@
-const robotron = document.querySelector("#robotron")
+const robotron = document.querySelector(".robotron")
 
 robotron.addEventListener("click", dizOi)
 
