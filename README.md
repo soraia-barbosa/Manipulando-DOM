@@ -25,6 +25,10 @@
   <li>A utilização de Hoisting em var, let e cont não é indicada, pois a variável criada é elevada para o escopo, mas sem o seu valor.</li>
   <li>Data-attributes: são utilizados para guardar valores em elementos HTML. Esses valores podem ser manipulados através do JavaScript. Também é possível estilizar elementos HTML com CSS referenciando o seu data-attribute. O prefixo data- não é obrigatório para definir um data-attribute personalizado.</li>
   <li>O toggleClass() é um método do jQuery que adiciona ou remove uma classe CSS de um determinado elemento, o seu uso mais comum eu diria que é para renderizar ou não determinado elemento HTML, esse efeito conhecido como hide/show funciona adicionando e removendo uma classe com um display: none, mas o toggleClass() é útil para qualquer efeito de mudanças de CSS.</li>
-  <li>
+  <li>http://www.maujor.com/blog/2009/06/22/efeito-jquery-toggle-para-revelar-e-esconder/#:~:text=permite%20inserir%20muito%20conte%C3%BAdo%20em,cria%20impacto%20visual%20interessante.</li>
+  <li>O toggle permite inserir muito conteúdo em pouco espaço;
+facilita a visualização e entendimento dos conteúdos;
+proporciona interação agradável com o usuário;
+cria impacto visual interessante.</li>
   
   
