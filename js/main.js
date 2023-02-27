@@ -50,3 +50,6 @@ function manipulaDados(operação, controle){
         peca.value = parseInt(peca.value) + 1
     }
 }
+
+
+//terminar esse capítulo
