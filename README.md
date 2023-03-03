@@ -60,6 +60,16 @@ preco:31,92
 ]
 
 console.log(livros[0]["autor"])
-console.log(livros[0].autor)</li>
-  <li>É possível acessar propriedades de objetos utilizando ponto . ou array []: livro.preço
+console.log(livros[0].autor) </li>
+  <li>É possível acessar propriedades de objetos utilizando ponto . ou array []:
+  livro.preco/ console.log(livros[0]["autor"])
+              console.log(livros[0].autor)</li>
+<li>Para alterar o valor da propriedade genero do livro “Introdução e boas práticas em UX Design”, por exemplo, é possível fazer da seguinte forma:
+
+livros[1].genero = "UX e Design"</li>
+<li>Podemos inserir novos valores em objetos utilizando ponto . ou array []:
+
+Agora vamos conferir como adicionar uma nova propriedade chamada estoque, junto do seu valor, no primeiro livro da nossa lista:
+
+livros[0].estoque = "11 unidades"</li>
   
