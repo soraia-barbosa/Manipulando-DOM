@@ -72,4 +72,51 @@ livros[1].genero = "UX e Design"</li>
 Agora vamos conferir como adicionar uma nova propriedade chamada estoque, junto do seu valor, no primeiro livro da nossa lista:
 
 livros[0].estoque = "11 unidades"</li>
+<li>Podemos deletar valores de algum atributo, digitando delete + o índice do seu valor da seguinte forma:
+
+delete livros[1].autor. Também podemos deletar o livro do índice 1 e seus valores por completo:
+
+delete livros[1]. E ao consultar digitando livros[1] será retornado: undefined. 
+</li>
+<li>Utilizando thi e window
+Em JavaScript, é possível utilizar o this para acessar o objeto window.
+
+console.log(this === window); // true. O window representa uma janela que contém o elemento DOM da página acessada. No objeto window é definida todas variáveis globais e funções que são executadas em um navegador. </li>
+<li>Com this é possível também acessar um objeto e suas propriedades:
+var livros = {
+    titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco: 31.92,
+    chamaLivro: function() {
+        return this.autor;
+    }
+}
+console.log('O autor do livro se chama ' + livros.chamaLivro())</li>
+<li>No exemplo acima, o this é uma representação do objeto livros. E será retornado no console:
+
+O autor do livro se chama Flávio Almeida</li>
+<li>Alterando propriedades de um objeto com this:
+var livros = {
+    titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco: 31.92,
+    alteraAutor: function() {
+        return this.autor = "Pedro Marins";
+    },
+}
+
+console.log('É possível alterar o nome do autor para ' + livros.alteraAutor())
+No console será retornado “É possível alterar o nome do autor para Pedro Marins”.
+</li>
+<li>
+
+Atenção ao uso do this
+Quando utilizado no escopo global, o this tem valor do objeto window.</li>
+
+
+
   
