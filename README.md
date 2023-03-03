@@ -27,6 +27,39 @@
   <li>O toggleClass() é um método do jQuery que adiciona ou remove uma classe CSS de um determinado elemento, o seu uso mais comum eu diria que é para renderizar ou não determinado elemento HTML, esse efeito conhecido como hide/show funciona adicionando e removendo uma classe com um display: none, mas o toggleClass() é útil para qualquer efeito de mudanças de CSS.</li>
   <li>artigo: http://www.maujor.com/blog/2009/06/22/efeito-jquery-toggle-para-revelar-e-esconder/#:~:text=permite%20inserir%20muito%20conte%C3%BAdo%20em,cria%20impacto%20visual%20interessante.</li>
   <li>O toggle permite inserir muito conteúdo em pouco espaço; facilita a visualização e entendimento dos conteúdos; proporciona interação agradável com o usuário; cria impacto visual interessante.</li>
-  <li>Na linguagem JavaScript, objetos podem ser definidos como uma coleção de dados. Para criar um objeto JavaScript, pode-se utilizar chaves { }.</li>
+  <li>Na linguagem JavaScript, objetos podem ser definidos como uma coleção de dados. Para criar um objeto JavaScript, pode-se utilizar chaves { }:
+  var livro = { 
+titulo: "Cangaceiro JavaScript",  
+autor: "Flávio Almeida", 
+genero: "Front-end", 
+editora: "Casa do código", 
+preco:31,92
+}
+  </li>
   <li>Os objetos em JavaScript têm pares de valor de propriedade, assim como um livro físico por exemplo, título: Senhor dos anéis. A maioria dos livros tem as mesmas propriedades, mas os valores das propriedades diferem de um livro para outro.</li>
+  <li>Pode-se, tbm, inserir uma lista dentro de um objeto JavaScript [].
+  var livros = [
+
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco: 31.92},
+
+    {titulo: "Introdução e boas práticas em UX Design",  
+    autor: "Fabricio Teixeira", 
+    genero: "UX & UI", 
+    editora: "Casa do código", 
+    preco: 31.92},
+
+    {titulo: "Scrum",  
+    autor: "Rafael Sabbagh", 
+    genero: "Métodos Ágeis", 
+    editora: "Casa do código", 
+    preco: 31.92},
+]
+
+console.log(livros[0]["autor"])
+console.log(livros[0].autor)</li>
+  <li>É possível acessar propriedades de objetos utilizando ponto . ou array []: livro.preço
   
