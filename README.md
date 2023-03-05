@@ -116,6 +116,8 @@ No console será retornado “É possível alterar o nome do autor para Pedro Ma
 
 Atenção ao uso do this
 Quando utilizado no escopo global, o this tem valor do objeto window.</li>
+<li>Definimos o que são objetos e analisamos métodos para manipulá-los;
+Refatoramos o código do projeto, aprendendo como manipular arrays e utilizando forEach.</li>
 
 
 
