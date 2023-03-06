@@ -45,7 +45,7 @@ controle.forEach( (elemento) => {
 
     
 function manipulaDados(operação, controle){
-    const peca = controle.querySelector("[data-contador")
+    const peca = controle.querySelector("[data-contador]")
 
     if(operação === "-"){
         peca.value = parseInt(peca.value) - 1
