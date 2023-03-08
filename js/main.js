@@ -64,3 +64,7 @@ function atualizaEstatisticas(peca){
     })
 
 }
+
+function montarobo(){
+    
+}
