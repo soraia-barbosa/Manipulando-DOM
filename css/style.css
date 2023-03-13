@@ -148,8 +148,6 @@ main {
     color: var(--main-branco)
 }
 
-
-
 /****************************** Estatísticas *****/
 .estatisticas {
     flex-basis: 23%;
@@ -245,7 +243,7 @@ main {
        right: 5%;
        bottom: 10%;
        display: flex;
-       height: ;
+       height: 20%;
        justify-content: ;
        align-items: ;
        /*definir uma altura e usar space-around(adiciona para cima e lados) ou space-between(calcula espaço restante entre objetos)
