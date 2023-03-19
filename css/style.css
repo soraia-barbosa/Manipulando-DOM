@@ -245,8 +245,7 @@ main {
        display: flex;
        height: 90vw;
        
-       justify-content: ;
-       align-items: ;
+       
        /*definir uma altura e usar space-around(adiciona para cima e lados) ou space-between(calcula espaço restante entre objetos)
     }
 }
